@@ -1,5 +1,5 @@
 /*
- * Public API Surface of angular-checkout-js
+ * Public API Surface of angular-checkout-js-configurable
  */
 
 export * from './lib/services/checkout.service';

@@ -3,7 +3,7 @@ import { DOCUMENT } from '@angular/common';
 import CONSTANTS from '../constants';
 import { WINDOW_TOKEN, Window } from './window.service';
 import { ReplaySubject } from 'rxjs';
-import { CheckoutInstance } from './../interfaces';
+import { CheckoutInstance } from '../interfaces';
 
 @Injectable({
   providedIn: 'root'

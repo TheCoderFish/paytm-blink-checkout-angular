@@ -1,5 +1,5 @@
+import { CheckoutInstance } from '../interfaces';
 import { InjectionToken } from '@angular/core';
-import { CheckoutInstance } from './../interfaces';
 
 export interface Window {
     Paytm?: {

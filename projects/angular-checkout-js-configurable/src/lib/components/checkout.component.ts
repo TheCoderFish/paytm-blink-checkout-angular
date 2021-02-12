@@ -1,7 +1,8 @@
-import { CheckoutService } from './../services/checkout.service';
-import { Component, OnDestroy, AfterViewInit } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { AfterViewInit, Component, OnDestroy } from '@angular/core';
+
 import CONSTANTS from '../constants';
+import { CheckoutService } from '../services/checkout.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'paytm-checkout',
