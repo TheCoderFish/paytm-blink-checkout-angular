@@ -10,6 +10,10 @@
     "angular-checkout-js-configurable"
   ],
   "author": "Ankit Gupta",
+  "repository": {
+    "url": "https://github.com/TheCoderFish/paytm-blink-checkout-angular",
+    "type": "git"
+  },
   "license": "ISC",
   "peerDependencies": {
     "@angular/core": "^6.1.0",
