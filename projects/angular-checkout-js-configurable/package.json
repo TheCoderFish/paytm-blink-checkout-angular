@@ -1,5 +1,5 @@
 {
-  "name": "paytm-blink-checkout-angular-configurable",
+  "name": "angular-checkout-js-configurable-configurable",
   "version": "0.0.0-alpha.0",
   "description": "Angular based implementation for Paytm Blink Checkout JS",
   "keywords": [
@@ -7,7 +7,7 @@
     "Blink Checkout JS",
     "Checkout JS",
     "Paytm Blink Checkout Angular",
-    "paytm-blink-checkout-angular"
+    "angular-checkout-js-configurable"
   ],
   "author": "Ankit Gupta",
   "license": "ISC",

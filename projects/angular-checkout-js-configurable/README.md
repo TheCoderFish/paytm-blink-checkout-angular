@@ -1,22 +1,22 @@
-# paytm-blink-checkout-angular
+# angular-checkout-js-configurable
 
 ## Installation
 ```sh
-$ npm install --save paytm-blink-checkout-angular
+$ npm install --save paytm-blink-checkout-angular-configurable
 ```
 
 ## Supported Angular versions
 6 and above
 
 ## Usage
-The paytm-blink-checkout-angular provides a module, component and service to incorporate Paytm Blink Checkout JS library in a project. 
+The angular-checkout-js-configurable provides a module, component and service to incorporate Paytm Blink Checkout JS library in a project. 
 
-In order to make use of **paytm-blink-checkout-angular**, import CheckoutModule to the modules imports section. 
+In order to make use of **angular-checkout-js-configurable**, import CheckoutModule to the modules imports section. 
 
 #### Example
 
 ```javascript
-import { CheckoutModule } from 'paytm-blink-checkout-angular';
+import { CheckoutModule } from 'angular-checkout-js-configurable';
 
 @NgModule({
   declarations: [
@@ -42,7 +42,7 @@ Service could be injected and initialized as follows :
 ```javascript
 
 import { Component, OnDestroy } from '@angular/core';
-import { CheckoutService } from 'paytm-blink-checkout-angular';
+import { CheckoutService } from 'angular-checkout-js-configurable';
 import { Subscription } from 'rxjs';
 
 @Component({
