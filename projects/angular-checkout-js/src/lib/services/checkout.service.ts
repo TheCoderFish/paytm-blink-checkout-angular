@@ -27,16 +27,16 @@ export class CheckoutService implements OnDestroy {
     if (merchantId) {
       this.config = config;
       this.openInPopup = openInPopup;
-      this.loadCheckoutScript(merchantId);
+      this.loadCheckoutScript(merchantId, config?.url);
     } else {
       console.error(CONSTANTS.ERRORS.MERCHANT_ID_NOT_FOUND);
     }
   }
 
-  private loadCheckoutScript(merchantId: string): void {
+  private loadCheckoutScript(merchantId: string, url: string): void {
     const scriptElement = this.document.createElement('script');
     scriptElement.async = true;
-    scriptElement.src = CONSTANTS.LINKS.CHECKOUT_JS_URL.concat(merchantId);
+    scriptElement.src = url ? url.concat(merchantId) : CONSTANTS.LINKS.CHECKOUT_JS_URL.concat(merchantId);
     scriptElement.type = 'application/javascript';
     scriptElement.onload = this.setupCheckoutJs;
     this.document.body.appendChild(scriptElement);
